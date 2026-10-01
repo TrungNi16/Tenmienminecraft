@@ -1,0 +1,28 @@
+{   "title": "HanMC minecraft server",
+    "description": "HanMC minecraft server",
+    "domain": "creepers.sbs",
+    "subdomain": "TrungNi16",
+
+    "country_code": "none",
+    
+    "owner": {
+        "github_user": "https://github.com/TrungNi16",
+        "email": "phiquangtrung0@gmail.com"
+    },
+
+    "record": {
+        "spare_record": ["none"], 
+        "A": [ "5.9.41.143" ],
+        "SRV": [
+            {
+                "content": "_minecraft._tcp",
+                "name": "@",
+                "priority": 10,
+                "weight": 60,
+                "port": 28946,
+                "target": "hanmc.creepers.sbs"
+            }
+        ]
+    },
+ "proxy": false
+}
